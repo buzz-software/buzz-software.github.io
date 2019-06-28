@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  
+    <title>Home - </title>
+
+    
+    <meta name="Description" content="Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages.">
+    
+  
+
+  <link rel="shortcut icon" href="http://localhost:4000/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/just-the-docs.css">
+
+  
+
+  
+  <script type="text/javascript" src="http://localhost:4000/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Home</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Home" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages." />
+<meta property="og:description" content="Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages." />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/","headline":"Home","description":"Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages.","@type":"WebSite","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+
+  <div class="page-wrap">
+    <div class="side-bar">
+      <a href="http://localhost:4000" class="site-title fs-6 lh-tight"></a>
+      <span class="fs-3"><button class="js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>
+      <div class="navigation main-nav js-main-nav">
+        <nav role="navigation" aria-label="Main navigation">
+  <ul class="navigation-list">
+    
+    
+      
+        
+          <li class="navigation-list-item active">
+            
+            <a href="http://localhost:4000/" class="navigation-list-link active">Home</a>
+            
+          </li>
+        
+      
+    
+  </ul>
+</nav>
+
+      </div>
+      <footer role="contentinfo" class="site-footer">
+        <p class="text-small text-grey-dk-000 mb-0">This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.</p>
+      </footer>
+    </div>
+    <div class="main-content-wrap js-main-content" tabindex="0">
+      <div class="page-header">
+        <div class="main-content">
+          
+          
+        </div>
+      </div>
+      <div class="main-content">
+        
+        <div id="main-content" class="page-content" role="main">
+          <h1 class="fs-9" id="saasbox-getting-started">SaaSBox Getting Started</h1>
+
+<p class="fs-6 fw-300">SaaSBox is a SaaS template for Node / ExpressJS. It gives you an accelerated starting point for building a Software-as-a-service (SaaS) with a few crucial pages (landing, feature, pricing, products) editable with forms, creation and syncing of Stripe plans, sign up via email and social networks using PassportJS already integrated.</p>
+
+<h2 id="get-started-now-buy-the-template"><a href="#getting-started" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2">Get started now</a> <a href="https://saasbox.net/products" class="btn fs-5 mb-4 mb-md-0">Buy the Template</a></h2>
+
+<h2 id="getting-started">Getting started</h2>
+
+<h3 id="download">Download</h3>
+
+<p>You can buy and download the template at this <a href="https://saasbox.net/products">link</a></p>
+
+<h3 id="quick-start">Quick start:</h3>
+
+<p>Install all the dependencies:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm <span class="nb">install</span>
+</code></pre></div></div>
+
+<p>Run the migrations:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sequelize db:migrate
+</code></pre></div></div>
+
+<p>Create and edit a <code class="highlighter-rouge">.env</code> file in the root directory:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">touch</span> .env
+sublime .env
+</code></pre></div></div>
+
+<p>Create Environment variables as below:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">NODE_ENV</span><span class="o">=</span>development
+<span class="nv">cf_privateKeyPath</span><span class="o">=</span>
+<span class="nv">cf_accessKeyId</span><span class="o">=</span>
+
+<span class="nv">s3_iam_user</span><span class="o">=</span>
+<span class="nv">s3_accessKey</span><span class="o">=</span>
+<span class="nv">s3_secret</span><span class="o">=</span>
+
+<span class="nv">stripe_privateKey_test</span><span class="o">=</span>
+<span class="nv">stripe_privateKey_prod</span><span class="o">=</span>
+<span class="nv">stripe_publicKey_test</span><span class="o">=</span>
+<span class="nv">stripe_publicKey_prod</span><span class="o">=</span>
+<span class="nv">twitter_consumerKey</span><span class="o">=</span>
+<span class="nv">twitter_consumerSecret</span><span class="o">=</span>
+<span class="nv">twitter_dev_callbackURL</span><span class="o">=</span>http://127.0.0.1:8081/signup/twitter/return
+<span class="nv">twitter_prod_callbackURL</span><span class="o">=</span>https://getbuzz.io/signup/twitter/return
+
+<span class="nv">google_clientID</span><span class="o">=</span>
+<span class="nv">google_clientSecret</span><span class="o">=</span>
+<span class="nv">google_dev_callbackURL</span><span class="o">=</span>http://127.0.0.1:8081/o/oauth/google
+<span class="nv">google_prod_callbackURL</span><span class="o">=</span>https://getbuzz.io/o/oauth/google
+
+<span class="nv">facebook_appId</span><span class="o">=</span>
+<span class="nv">facebook_appSecret</span><span class="o">=</span>
+<span class="nv">facebook_dev_callbackURL</span><span class="o">=</span>http://127.0.0.1:8081/o/oauth/facebook
+<span class="nv">facebook_prod_callbackURL</span><span class="o">=</span>https://getbuzz.io/o/oauth/facebook
+
+<span class="nv">backend</span><span class="o">=</span>
+</code></pre></div></div>
+<h3 id="run-the-local-application">Run the local application:</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">DEBUG</span><span class="o">=</span>myapp:<span class="k">*</span> npm start
+</code></pre></div></div>
+
+<h3 id="test-your-local-instance">Test your local instance</h3>
+
+<p>Fire up your browser and go to: <code class="highlighter-rouge">https://localhost:8081</code></p>
+
+<h3 id="create-admin-user">Create admin user</h3>
+
+<p>Your first sign up becomes the admin user, so save your email and password you used.</p>
+
+<h3 id="hosting-options">Hosting Options</h3>
+
+<p>Check out SaaSBox <a href="https://saasbox.net/pricing">plans</a> for fully managed hosting options - this handles all hosting complexities and you only need a domain to start.</p>
+
+<p>Hosting provides:</p>
+<ul>
+  <li>PostgreSQL database (size depends on the plan),</li>
+  <li>Load Balancer with NodeJS apps behind with auto-scaling,</li>
+  <li>An HTTPS certificate with auto-renew (you need to create a CNAME record to point at the server),</li>
+  <li>Secure file storage, in case you sell downloadable products</li>
+  <li>CDN: Cloudfront configured to serve your public files, images etc.</li>
+  <li>Automatic updates. E.g. we add a new SaaS feature: “Get product reviews from your users”, this will get pushed and your SaaS migrated auto-updated.</li>
+</ul>
+
+<hr />
+
+<h2 id="about-the-project">About the project</h2>
+
+<p>SaaSBox is a Buzz Software product. Find out more about tech entrepreneurship and building a SaaS at <a href="https://getbuzz.io">https://getbuzz.io</a></p>
+
+<h3 id="license">License</h3>
+
+<p>Check the license at the root directory of your SaaSBox source code for details.</p>
+
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
