@@ -63,17 +63,17 @@ stripe_publicKey_prod=
 twitter_consumerKey=
 twitter_consumerSecret=
 twitter_dev_callbackURL=http://127.0.0.1:8081/signup/twitter/return
-twitter_prod_callbackURL=https://getbuzz.io/signup/twitter/return
+twitter_prod_callbackURL=https://yourdomain.com/signup/twitter/return
 
 google_clientID=
 google_clientSecret=
 google_dev_callbackURL=http://127.0.0.1:8081/o/oauth/google
-google_prod_callbackURL=https://getbuzz.io/o/oauth/google
+google_prod_callbackURL=https://yourdomain.com/o/oauth/google
 
 facebook_appId=
 facebook_appSecret=
 facebook_dev_callbackURL=http://127.0.0.1:8081/o/oauth/facebook
-facebook_prod_callbackURL=https://getbuzz.io/o/oauth/facebook
+facebook_prod_callbackURL=https://yourdomain.com/o/oauth/facebook
 
 backend=
 ```
