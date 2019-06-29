@@ -1,1 +1,8 @@
 remote_theme: pmarsceill/just-the-docs
+
+title: SaaSBox - NodeJS SaaS Template Documentation
+Description: Documentation for SaaSBox
+ga_tracking: UA-128178901-2
+
+plugins:
+  jekyll-seo-tag
