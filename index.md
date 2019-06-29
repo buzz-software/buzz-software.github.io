@@ -15,6 +15,9 @@ SaaSBox is a SaaS template for Node / ExpressJS. It gives you an accelerated sta
 [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Buy the Template](https://saasbox.net/products){: .btn .fs-5 .mb-4 .mb-md-0 }
 ---
 
+### Prerequisites:
+There is a free and high quality NodeJS SaaS / Web Application building [video crash course](https://getbuzz.io/c/learning-expressjs). Learn how to install NodeJS, make basic queries with Sequelize, how to create a migration, a basic CRUD implementation and more.
+
 ## Getting started
 
 ### Download
