@@ -4,5 +4,8 @@ title: SaaSBox - NodeJS SaaS Template Documentation
 Description: Documentation for SaaSBox
 ga_tracking: UA-128178901-2
 
+permalink: pretty
+
+search_enabled: true
 plugins:
-  jekyll-seo-tag
+  - jekyll-seo-tag
