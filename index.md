@@ -9,14 +9,16 @@ permalink: /
 # SaaSBox Getting Started
 {: .fs-9 }
 
-SaaSBox is a SaaS template for Node / ExpressJS. It gives you an accelerated starting point for building a Software-as-a-service (SaaS) with a few crucial pages (landing, feature, pricing, products) editable with forms, creation and syncing of Stripe plans, sign up via email and social networks using PassportJS already integrated.
+SaaSBox is a SaaS template for Node / ExpressJS. It is an accelerated starting point for building a Software-as-a-service (SaaS) with a few crucial pages (landing, feature, pricing, products) editable with forms, creation and syncing of Stripe plans, sign up via email and social networks using PassportJS.
 {: .fs-6 .fw-300 }
 
 [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Buy the Template](https://saasbox.net/products){: .btn .fs-5 .mb-4 .mb-md-0 }
 ---
 
-### Prerequisites:
-There is a free and high quality NodeJS SaaS / Web Application building [video crash course](https://getbuzz.io/c/learning-expressjs). Learn how to install NodeJS, make basic queries with Sequelize, how to create a migration, a basic CRUD implementation and more.
+## Prerequisites
+Familiarity with NodeJS / ExpressJS, javascript.
+
+There is a free and high quality NodeJS SaaS / Web Application building [video crash course](https://getbuzz.io/c/learning-expressjs). Learn how to install NodeJS, create an MVC application with ExpressJS, make basic SQL queries with Sequelize, how to create a migration, a basic CRUD implementation and more.
 
 ## Getting started
 
